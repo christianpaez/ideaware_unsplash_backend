@@ -1,0 +1,13 @@
+# Read about fixtures at https://api.rubyonrails.org/classes/ActiveRecord/FixtureSet.html
+
+one:
+  unsplash_id: MyString
+  description: MyText
+  url: MyText
+  html: MyText
+
+two:
+  unsplash_id: MyString
+  description: MyText
+  url: MyText
+  html: MyText
