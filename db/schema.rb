@@ -12,6 +12,9 @@
 
 ActiveRecord::Schema.define(version: 2019_11_23_023554) do
 
+  # These are extensions that must be enabled in order to support this database
+  enable_extension "plpgsql"
+
   create_table "images", force: :cascade do |t|
     t.string "unsplash_id"
     t.text "description"
